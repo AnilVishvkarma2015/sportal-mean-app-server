@@ -1,0 +1,33 @@
+{
+  "name": "sportal-mean-app-server",
+  "version": "1.0.0",
+  "description": "Server app for student portal MEAN application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test"
+  },
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  },
+  "author": "Anil Vishvkarma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "log4js": "^3.0.5",
+    "memory-cache": "^0.2.0",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.13",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "response-time": "^2.3.2",
+    "uuid": "^3.3.2"
+  }
+}
