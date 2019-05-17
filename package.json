@@ -1,7 +1,7 @@
 {
   "name": "sportal-mean-app-server",
   "version": "1.0.0",
-  "description": "Server app for student portal MEAN application.",
+  "description": "Server app for student portal MEAN application (Edureka).",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
