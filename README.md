@@ -2,10 +2,12 @@
 1. Background
 
 Student Portal is a web application which provide web based student activity management system for all college/school students in order to introduce more reliability and transparency in information exchange activities e.g. exam notification, gate pass details and many more.  This application will be implement as MEAN/Full Stack application followed by MVC architecture. This will be a RESTful web service.
+
 2. Goal
 
 The objective is to develop a RESTful web application that can be easily adopted by customer (student/college/school) to make the educational processes/activities faster, safer and maintainable. 
 The framework should be built in a way that ensures lower maintenance efforts and maximum re-usability.
+
 3. Use Cases
 
 Application is designed to provide user specific functionality. There will be two users of this application. 
@@ -23,6 +25,7 @@ Student
 	Can apply for the leave.
 	Can update their profile details
 	Can download exam time table/exam gate pass.
+
 4. Project Implementation
 
 Below are the technical specifications, will to be used in application development – 
@@ -34,8 +37,6 @@ Below are the technical specifications, will to be used in application developme
 5	IDE	VS Code
 6	Database	MongoDB
 7	Deployment Server	Heroku
-
-
 
 Server and client apps will be individually deployed on Heroku cloud and communicates between them will be established through REST API call over HTTP protocol. 
  
